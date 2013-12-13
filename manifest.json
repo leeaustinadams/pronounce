@@ -1,0 +1,17 @@
+{
+    "name": "Pro Nounce",
+    "description": "Pronounce selected words",
+    "version": "0.1",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "http://apifree.forvo.com/",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+}
